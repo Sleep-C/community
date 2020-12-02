@@ -13,7 +13,7 @@
                 <maxFileSize>5MB</maxFileSize><!--最大日志文件5mb-->
             </timeBasedFileNamingAndTriggeringPolicy>
             <maxHistory>30</maxHistory><!--最长存30天-->
-        </rollingPolicy><!--test-->
+        </rollingPolicy>
         <append>true</append><!--追加的形式存-->
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>%d %level [%thread] %logger{10} [%file:%line] %msg%n</pattern><!--日志存储格式-->
